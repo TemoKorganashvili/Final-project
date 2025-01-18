@@ -73,7 +73,7 @@
 .driving-div {
   position: absolute;
   max-width: 826px;
-  width: 95%;
+  width: 90%;
   height: 277px;
   gap: 40px;
   opacity: 0px;
@@ -138,7 +138,6 @@
   height: 59px;
   width: 95%;
   border-radius: 100px;
-  background-color: white;
   display: flex;
   text-align: center;
   justify-content: center;
@@ -149,11 +148,9 @@
   font-size: 16px;
   font-weight: 400;
   line-height: 19.2px;
-  letter-spacing: 0.003em;
-  text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
-  border: 0.5px;
+  border: solid #333333;
 }
 .sec-div {
   max-width: 410px;
@@ -263,25 +260,157 @@
   text-decoration-skip-ink: none;
 }
 
-@media (max-width: 1024px) {
-  .nav-item {
-    display: none;
-  }
-  .driving-div {
-    top: 30%;
-    left: 40%;
-    transform: translate(-30%, -40%);
-    width: 100%;
-  }
-  .section-image {
-    width: 100%;
-  }
-  .sec-div {
-    display: none;
-  }
-  .number-div {
-    flex-direction: column;
-    text-align: center;
-    width: 100%;
-  }
+.wind-div {
+  max-width: 1290px;
+  width: 95%;
+  height: 649px;
+  margin: 0 auto;
+  display: flex;
+}
+.wind-image-div {
+  max-width: 100%;
+  position: relative;
+}
+.yellow-div {
+  max-width: 546px;
+  width: 95%;
+  height: 649px;
+  opacity: 0px;
+  background-color: #deff03;
+}
+.right-yellow-div {
+  max-width: 476px;
+  width: 95%;
+  height: 405px;
+  margin: 0 auto;
+  margin-top: 122px;
+}
+.yellow-text-div {
+  max-width: 476px;
+  width: 95%;
+  height: 301px;
+}
+.about-class {
+  font-family: Poppins;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 45px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.yellow-text {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.yellow-learn {
+  max-width: 173px;
+  width: 95%;
+  height: 64px;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 40px;
+  border: solid #333333;
+}
+.yellow-small-div-text {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin-right: 5px;
+}
+.services-div {
+  max-width: 1290px;
+  width: 95%;
+  height: 64px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 120px;
+}
+.service-text {
+  font-family: Poppins;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 45px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.services-small-div {
+  max-width: 177px;
+  width: 95%;
+  height: 64px;
+  gap: 10px;
+  border: solid #333333;
+  opacity: 0px;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #deff03;
+}
+.view-div {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #333333;
+}
+.solar-div {
+  max-width: 1290px;
+  width: 95%;
+  height: 427px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.solar-box1 {
+  max-width: 300px;
+  height: 427px;
+  border: 2px solid #e0e0e0;
+  border-radius: 20px;
+}
+.solar-all-text {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #4f4f4f;
+  margin-top: 8px;
+}
+.solar-all-p {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.6px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #828282;
+  margin-top: 8px;
+}
+.wind-image12 {
+  width: 100%;
+  margin-top: 100px;
+  position: relative;
 }
